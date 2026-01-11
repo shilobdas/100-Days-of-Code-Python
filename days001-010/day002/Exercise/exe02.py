@@ -1,11 +1,11 @@
-i=100
-while i>=10:
-    print (i)
-    i-=8
+# 🚨 Don't change the code below 👇
+height = input("Enter your height in m: ")
+weight = input("Enter your weight in kg: ")
+# 🚨 Don't change the code above 👆
 
-print("done_by_now")
+# Write your code below this line 👇
+height = float(height)
+weight = float(weight)
 
-i=5
-while i<=50:
-    print (i)
-    i+=5
+bmi = int(weight / height ** 2)
+print(bmi)
